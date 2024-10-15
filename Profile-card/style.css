@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    border: solid 1px black;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+}
+
+hr {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: aliceblue;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+}
+
+.cartao .perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    
+}
+
+.cartao .foto {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.cartao .numeros{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.cinza {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+p, .idade {
+    font-weight: 700;
+}
+
+.voltar {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.voltar:hover {
+    border: solid 2px black;
+}
