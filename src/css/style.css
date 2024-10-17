@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    background-color: aquamarine;
+    background-color: rgb(127, 225, 255);
     border-radius: 10px;
     border: solid 3px black;
 }
@@ -20,13 +20,13 @@ a {
     border-radius: 10px;
     background-color: cornflowerblue;
     color: white;
+    border: solid 2px rgb(75, 123, 212);
 }
 
 a:hover {
     transition: ease-in-out 0.2s;
-    font-weight: bold;
-    color: black;
-    border: solid 3px blueviolet;
+    background-color: blue;
+    border: solid 2px darkblue;
 }
 
 li {
